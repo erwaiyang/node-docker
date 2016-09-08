@@ -4,6 +4,7 @@
   "description": "Learning how to dockerize node.js app",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "mocha"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/erwaiyang/node-docker/issues"
   },
-  "homepage": "https://github.com/erwaiyang/node-docker#readme"
+  "homepage": "https://github.com/erwaiyang/node-docker#readme",
+  "dependencies": {
+    "koa": "^1.2.4"
+  }
 }
